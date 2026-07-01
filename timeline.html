@@ -29,10 +29,10 @@ main{padding:6px 12px 60px} .phase{margin-top:20px}
 table{border-collapse:collapse;width:100%;font-size:13px}
 th,td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}
 thead th{position:sticky;top:0;background:var(--panel2);z-index:5;white-space:nowrap;font-size:12px}
-td.c-time,th.c-time{position:sticky;left:0;z-index:4;background:var(--panel);white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:700;min-width:46px}
-td.c-mech,th.c-mech{position:sticky;left:46px;z-index:4;background:var(--panel);min-width:150px;font-weight:600}
+td.c-time,th.c-time{position:sticky;left:0;z-index:4;background:var(--panel);white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:700;width:58px;min-width:58px}
+td.c-mech,th.c-mech{position:sticky;left:58px;z-index:4;background:var(--panel);white-space:nowrap;width:1px;min-width:160px;font-weight:600}
 thead th.c-time,thead th.c-mech{z-index:6}
-td.c-dmg{white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;color:var(--mut)}
+td.c-dmg,th.c-dmg{white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;color:var(--mut);width:1px;min-width:62px}
 td.c-dmg.d-mid{color:#fcd34d} td.c-dmg.d-hi{color:#f87171;font-weight:700}
 tbody tr:hover td{background:#20252f} tbody tr:hover td.c-time,tbody tr:hover td.c-mech{background:#232834}
 .r-tank{--rc:var(--tank)}.r-heal{--rc:var(--heal)}.r-dps{--rc:var(--dps)}
